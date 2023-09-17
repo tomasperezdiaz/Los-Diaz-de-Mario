@@ -1,97 +1,132 @@
+/* Propiedades que afectan a toda la web */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-
-}
-
-header {
-    justify-content: space-between;
 }
 
 
 
-html {
-    background-color: rgb(228, 198, 142);
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    position: relative;
-
-
-}
-
-h1 {
-    text-align: center;
-    display: inline-block;
-    margin-left: 20%;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-li {
-    margin-right: 10px;
-
-    /* Espacio entre los elementos */
-}
-
-
-
-.logo {
-    height: 50px;
-    border-radius: 50%;
-    margin-top: 10px;
-    display: inline-block;
-
-
-}
-
-.buscador {
-    display: inline-block;
-
-
-
-}
-
-
-.portada {
-    width: 100%;
-    height: auto;
-    padding-left: px;
-}
-
-
-.wasap {
-    width: 80px;
-    position: relative;
-    top: 14px;
-}
-
-.flex {
-    display: flex;
-
-
-}
-
+/* Header */
 #header {
     background-color: rgb(119, 158, 87);
 
 }
 
-#inventario {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px
+.logo {
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    display: inline-block;
+    position: relative;
 }
+
+.navbar-nav li {
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+.sin {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 15px;
+    padding: 5px 10px;
+    border-left: solid 1px;
+}
+
+.sin1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 15px;
+    padding: 5px 10px;
+
+}
+
+ul:nth-child(1) {
+    border: none;
+}
+
+h1 {
+    padding-left: 50px;
+    position: relative;
+    bottom: 8px;
+
+    text-align: center;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+
+}
+.textoProductos {
+    text-align: center;
+    padding-left: 13px;
+}
+
+h2 {
+    position: relative;
+    right: 70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    padding: top 15px;
+    font-size: 24px !important;
+}
+
+h3,
+h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px !important;
+
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px !important;
+
+}
+
+.productos {
+    text-align: center;
+}
+
+.portada {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.flex {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#catalogo {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    align-items: start;
+    gap: 20px;
+
+}
+
 
 
 .grid {
     display: grid;
     width: 100%;
     height: auto;
+
+
 }
 
 #inventario div:nth-child(2) {
@@ -104,22 +139,156 @@ li {
     grid-row: 2/3;
 }
 
+/* footer */
 
-footer {
-    text-align: center;
+#contacto {
+    display: none;
 }
 
-.mapa {
-    text-align: center;
-}
 
 .descripcionUbicacion {
     text-align: center;
 }
 
-#catalogo {
-    grid-template-columns: repeat(3, 1fr);
+footer {
+    background-color: rgb(119, 158, 87);
+    padding-bottom: 1%;
+}
 
-    gap: 10px;
-    margin-left: 30px;
+.redes {
+
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.redes a {
+    padding: 3px;
+
+
+}
+
+.parrafoContacto {
+    padding-bottom: 30px;
+}
+
+.redesContacto {
+    padding-top: 90px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Setting para la pagina de contacto */
+.tamanoDireccion {
+    font-size: 10px;
+
+}
+
+.direc {
+    position: relative;
+    top: 13px;
+}
+
+.direccion {
+    position: relative;
+    top: 6px;
+}
+
+.datos {
+    padding-top: 97px;
+}
+
+
+.imagen {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#parteAbajo {
+    padding-bottom: 40px;
+}
+
+.posicionRedes {
+    margin-right: 150px;
+    margin-top: 200px;
+}
+.img {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.parrafo {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+/* Cambia el responsive de celular */
+@media (max-width:768px) {
+
+    /* Header */
+    /* Saca el H1 del Nav */
+    #caratula {
+        display: none;
+    }
+
+    /* Afecta a la seccion del footer de contacto */
+    .redesContacto {
+
+        padding-top: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .datos {
+        padding-top: 0px;
+    }
+
+    #catalogo {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto;
+        align-items: start;
+        gap: 10px;
+
+    }
+
+
+
+}
+
+/* Cambia el responsive de Tablet */
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    #catalogo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        align-items: start;
+        gap: 10px;
+
+    }
+
+}
+
+/* Cambia el responsive de Tablet */
+@media (max-width: 1200px) {
+
+    /* Afecta a la seccion del footer de contacto */
+    .redesContacto {
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .datos {
+        padding-top: 0px;
+    }
 }
