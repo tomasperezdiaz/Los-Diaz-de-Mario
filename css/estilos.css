@@ -217,6 +217,7 @@ footer {
 .posicionRedes {
     margin-right: 150px;
     margin-top: 200px;
+    height: 100%;
 }
 .img {
     height: auto;
@@ -231,6 +232,7 @@ footer {
     text-align: center;
     height: auto;
     width: 100%;
+
 }
 
 /* Cambia el responsive de celular */
