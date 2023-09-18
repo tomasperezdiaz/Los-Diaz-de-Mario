@@ -12,6 +12,19 @@
 
 }
 
+.centrado {
+    text-align: center;
+}
+
+.listaMuebles {
+    list-style: none;
+}
+.imgMuebles {
+    
+    height: auto;
+    width: 100%;
+}
+
 .logo {
     height: 150px;
     border-radius: 100%;
