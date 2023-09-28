@@ -18,6 +18,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     background-color: #F3FDE8;
 
 }
+.listaMuebles {
+    text-align: center;
+    margin-right: 40px;
+}
 
 
 .container {
@@ -27,7 +31,7 @@ margin: auto;
 
 /* Header */
 
- .navbar-nav li a:hover { border-bottom: 2px solid;
+ .navbar-nav li a:hover { border-bottom: 1px solid;
 }
 
 .centrado {
@@ -102,7 +106,9 @@ h2 {
     padding: top 15px;
     font-size: 24px !important;
 }
-
+p{
+    padding:0  30px;
+}
 h3,
 h5 {
     text-align: center;
@@ -124,6 +130,30 @@ h4 {
     width: 100%;
     height: auto;
   
+}
+.imagenProceso {
+   
+    padding-left: 25px;
+    
+    height: auto;
+}
+
+.imagenProceso1 {
+   
+    padding-right: 25px;
+    
+    height: auto;
+}
+.imaMuebles {
+    width: 90%;
+    margin: auto;
+   }
+
+.h2Contacto {
+    border-bottom: solid 2px rgb(82, 81, 81);
+    color: rgb(61, 61, 61);
+    padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .flex {
@@ -292,6 +322,10 @@ footer {
         margin-left: 0px;
         
     }
+    div .nav{
+        margin-bottom: 25px;
+    }
+
     
 }
 
@@ -304,6 +338,9 @@ footer {
         grid-template-rows: auto auto;
         align-items: start;
         gap: 10px;
+    }
+    div .nav{
+        margin-bottom: 25px;
     }
 }
 
@@ -329,5 +366,9 @@ footer {
         margin-left: 0px;
         
     }
+    .listaMuebles {
+        margin-right: 230px;
+    }
+    
     
 }
