@@ -1,0 +1,63 @@
+
+/* Header */
+.navbar-nav li a:hover {
+    border-bottom: 1px solid;
+}
+
+.displayNo {
+    display: none;
+
+}
+
+.centrado {
+    text-align: center
+}
+
+.listaMuebles {
+    list-style: none;
+}
+
+.imgMuebles {
+
+    height: auto;
+    width: 100%;
+}
+
+.logo {
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+.sin,
+.sin1 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 15px;
+    padding: 10px 10px;
+
+}
+
+
+ul:nth-child(1) {
+    border: none;
+}
+
+h1 {
+    padding-left: 50px;
+    position: relative;
+    bottom: 8px;
+    text-align: center;
+    display: inline-block;
+    font-family: $fuente-principal;
+
+}

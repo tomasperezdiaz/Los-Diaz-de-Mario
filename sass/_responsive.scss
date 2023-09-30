@@ -1,0 +1,94 @@
+/* Cambia el responsive de celular */
+@media (max-width:768px) {
+
+    /* Header */
+    /* Saca el H1 del Nav */
+    #caratula {
+        display: none;
+    }
+
+    /* Afecta a la seccion del footer de contacto */
+    .redesContacto {
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .datos {
+        padding-top: 0px;
+    }
+
+    #catalogo {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto;
+        align-items: start;
+        gap: 10px;
+    }
+
+
+
+    .navbar-nav li a {
+        border-left: 1px solid;
+
+        &:hover {
+            border-bottom: none;
+        }
+    }
+
+    .datos {
+        margin-left: 0px;
+
+    }
+
+    div .nav {
+        margin-bottom: 25px;
+    }
+
+
+}
+
+
+/* Cambia el responsive de Tablet */
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    #catalogo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        align-items: start;
+        gap: 10px;
+    }
+
+    div .nav {
+        margin-bottom: 25px;
+    }
+}
+
+/* Cambia el responsive de Tablet */
+@media (max-width: 1200px) {
+
+    /* Afecta a la seccion del footer de contacto */
+    .redesContacto {
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .datos {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+
+
+
+    .navbar-nav li a {
+        border-left: 1px solid;
+
+        &:hover {
+            border-bottom: none;
+        }
+    }
+
+    .listaMuebles {
+        margin-right: 230px;
+    }
+
+
+}

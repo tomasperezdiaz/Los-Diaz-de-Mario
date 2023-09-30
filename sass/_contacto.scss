@@ -1,0 +1,56 @@
+@mixin alturas {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Setting para la pagina de contacto */
+.tamanoDireccion {
+    font-size: 10px;
+}
+
+.direc {
+    position: relative;
+    top: 13px;
+}
+
+.direccion {
+    position: relative;
+    top: 6px;
+}
+
+.datos {
+    padding-top: 97px;
+}
+
+.imagen {
+    @include alturas;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#parteAbajo {
+    padding-bottom: 40px;
+}
+
+.posicionRedes {
+    margin-right: 150px;
+    margin-top: 200px;
+    height: 100%;
+}
+
+.img {
+    @include alturas;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parrafo {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    @include alturas;
+}
