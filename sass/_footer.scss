@@ -7,7 +7,7 @@
 }
 
 footer {
-    
+
     padding-bottom: 1%;
 }
 
@@ -30,12 +30,16 @@ footer {
 }
 
 
-#datosMapa, footer {
+#datosMapa,
+footer {
     text-align: center;
 }
 
 .datos {
     margin-left: 350px;
-    
+
 }
 
+footer {
+    background-color: $color-primario;
+}

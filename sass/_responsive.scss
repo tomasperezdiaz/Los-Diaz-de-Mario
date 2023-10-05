@@ -43,6 +43,30 @@
         margin-bottom: 25px;
     }
 
+    .imgProductos {
+
+
+        &:hover {
+            filter: grayscale(0);
+
+            /* Esta aplica bien para celular, hacerlo para tablet y pc */
+            transform: scale(1.092);
+
+        }
+
+    }
+
+    .flexCartas {
+        display: block;
+    }
+
+    div .card {
+
+        margin-top: 40px;
+    }
+
+    
+
 
 }
 
@@ -51,7 +75,7 @@
 @media (min-width: 768px) and (max-width: 1200px) {
 
     #catalogo {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) !important;
         grid-template-rows: auto auto;
         align-items: start;
         gap: 10px;
@@ -60,6 +84,21 @@
     div .nav {
         margin-bottom: 25px;
     }
+
+    .imgProductos {
+
+
+        &:hover {
+            filter: grayscale(0);
+
+            /* Esta aplica bien para celular, hacerlo para tablet y pc */
+            transform: scale(1.1);
+
+        }
+
+    }
+
+
 }
 
 /* Cambia el responsive de Tablet */
@@ -76,8 +115,6 @@
         margin-left: 0px;
     }
 
-
-
     .navbar-nav li a {
         border-left: 1px solid;
 
@@ -89,6 +126,7 @@
     .listaMuebles {
         margin-right: 230px;
     }
+
 
 
 }

@@ -17,6 +17,20 @@ h2 {
     padding: 20px;
     padding: top 15px;
     font-size: 24px !important;
+
+}
+
+.centrados {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: none;
+}
+
+div .card {
+    width: 100%;
+    height: auto;
+
 }
 
 p {
@@ -40,9 +54,15 @@ h4 {
     text-align: center;
 }
 
+
+
 .portada {
     width: 100%;
     height: auto;
+    border-top: solid 1px $color-terciario;
+    border-left: solid 1px $color-terciario;
+    border-right: solid 1px $color-terciario;
+
 
 }
 
@@ -55,21 +75,51 @@ h4 {
 
 .imagenProceso1 {
 
-    padding-right: 25px;
-
-    height: auto;
+    padding-right: 35px;
+width: 100%;
+    
 }
 
 .imaMuebles {
     width: 90%;
     margin: auto;
 }
+.imagenProceso1 {
+    width: 100%;
+    height: auto;
+    
+}
+
+.imaMadera {
+    width: 100%;
+    height: auto;
+}
 
 .h2Contacto {
-    border-bottom: solid 2px rgb(82, 81, 81);
+    border-bottom: solid 2px $color-terciario;
     color: rgb(61, 61, 61);
     padding: 5px;
     font-family: $funte-secundaria;
+    color: $color-terciario;
+
+
+
+}
+
+/* Cambios a la tabla */
+.movimiento {margin: auto;}
+
+table {border: solid 1px black;
+margin: auto;
+text-align: center;
+margin-top: 20px;
+height: auto;
+width: 80%;
+
+background-color: $color-terciario;}
+
+table tr td {
+    border: solid 1px black;
 }
 
 .flex {
@@ -77,6 +127,29 @@ h4 {
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+}
+
+.flexCartas {
+    @extend .flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+div .card {
+
+    background-color: $color-terciario;
+}
+
+.imagenCarta {
+    padding: 10px;
+}
+
+.btn .btn-dark {
+    color: orange !important;
+
 }
 
 #catalogo {
@@ -105,5 +178,27 @@ h4 {
     &:nth-child(4) {
         grid-column: 2/3;
         grid-row: 2/3;
+    }
+}
+
+/* Efecto que aplica en productos */
+
+.imgProductos {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: grayscale(100) blur(1px);
+    transition: all 0.3s;
+
+
+    &:hover {
+        filter: grayscale(0);
+
+
+        transform: scale(1.13);
+        z-index: 2;
+        cursor: pointer;
     }
 }
