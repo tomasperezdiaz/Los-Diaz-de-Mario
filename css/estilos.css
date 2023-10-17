@@ -7,13 +7,18 @@
   margin-right: 40px;
 }
 
-/* line 8, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 7, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .textoProductos {
   text-align: center;
   padding-left: 13px;
 }
 
 /* line 13, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+#pos {
+  margin-top: 15px;
+}
+
+/* line 17, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 h2 {
   position: relative;
   text-align: center;
@@ -23,7 +28,20 @@ h2 {
   font-size: 24px !important;
 }
 
-/* line 23, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 26, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.parrafoProceso {
+  margin-top: 80px;
+}
+
+/* line 29, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.producto {
+  background-image: url(../src/barra.jpg);
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 170px;
+}
+
+/* line 38, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .centrados {
   text-align: center;
   justify-content: center;
@@ -31,38 +49,83 @@ h2 {
   display: none;
 }
 
-/* line 30, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 45, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 div .card {
   width: 100%;
   height: auto;
 }
 
-/* line 36, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 51, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 p {
   padding: 0 30px;
 }
 
-/* line 40, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 54, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.cuadro {
+  position: relative;
+}
+
+/* line 58, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.cuadro__titulo {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  color: var(--blanco);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #222222;
+  background: rgba(184, 166, 118, 0.4);
+}
+
+/* line 85, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.cuadro__titulo:hover {
+  opacity: 1;
+}
+
+/* line 91, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.cuadro__img {
+  line-height: 0;
+  overflow: hidden;
+}
+
+/* line 97, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 h3,
 h5 {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 15px !important;
+  font-size: 20px !important;
 }
 
-/* line 47, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 104, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 h4 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 20px !important;
 }
 
-/* line 53, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 110, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .productos {
   text-align: center;
 }
 
-/* line 59, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 116, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .portada {
   width: 100%;
   height: auto;
@@ -71,37 +134,38 @@ h4 {
   border-right: solid 1px #d6ab5a;
 }
 
-/* line 69, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 126, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imagenProceso {
   padding-left: 25px;
   height: auto;
 }
 
-/* line 76, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 133, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imagenProceso1 {
   padding-right: 35px;
   width: 100%;
 }
 
-/* line 83, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 140, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imaMuebles {
   width: 90%;
   margin: auto;
 }
 
-/* line 87, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 144, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imagenProceso1 {
   width: 100%;
   height: auto;
 }
 
-/* line 93, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 150, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imaMadera {
   width: 100%;
   height: auto;
+  margin: auto;
 }
 
-/* line 98, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 157, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .h2Contacto {
   border-bottom: solid 2px #d6ab5a;
   color: #3d3d3d;
@@ -111,28 +175,30 @@ h4 {
 }
 
 /* Cambios a la tabla */
-/* line 110, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 169, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .movimiento {
   margin: auto;
 }
 
-/* line 112, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 171, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 table {
   border: solid 1px black;
   margin: auto;
   text-align: center;
   margin-top: 20px;
   height: auto;
-  width: 80%;
+  width: 98%;
+  border-collapse: collapse;
+  max-width: 100%;
   background-color: #d6ab5a;
 }
 
-/* line 121, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 182, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 table tr td {
   border: solid 1px black;
 }
 
-/* line 125, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 186, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .flex, .flexCartas {
   display: flex;
   flex-grow: 1;
@@ -140,7 +206,7 @@ table tr td {
   align-items: center;
 }
 
-/* line 132, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 194, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .flexCartas {
   gap: 15px;
   margin-top: 20px;
@@ -149,22 +215,22 @@ table tr td {
   flex-grow: 1;
 }
 
-/* line 141, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 203, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 div .card {
   background-color: #d6ab5a;
 }
 
-/* line 146, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 208, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imagenCarta {
   padding: 10px;
 }
 
-/* line 150, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 212, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .btn .btn-dark {
   color: orange !important;
 }
 
-/* line 155, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 217, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 #catalogo {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
@@ -172,35 +238,57 @@ div .card {
   gap: 20px;
 }
 
-/* line 162, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 223, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+#catalogo1 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  align-items: start;
+  gap: 20px;
+}
+
+/* line 230, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .consulta {
   text-align: center;
   margin-bottom: 10px;
   font-size: 25px;
 }
 
-/* line 168, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 236, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .grid {
   display: grid;
   width: 100%;
   height: auto;
 }
 
-/* line 174, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 241, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.grid1 {
+  display: grid;
+  width: 100%;
+  height: auto;
+}
+
+/* line 247, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 #inventario div:nth-child(2) {
   grid-column: 1/2;
   grid-row: 2/3;
 }
 
-/* line 178, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 251, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 #inventario div:nth-child(2):nth-child(4) {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
 /* Efecto que aplica en productos */
-/* line 186, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+/* line 259, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 .imgProductos {
+  height: auto;
+  width: 100%;
+}
+
+/* Aplica para las imanes de galeria donde lleva el link de los productos */
+/* line 268, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.imgProductos1 {
   height: auto;
   width: 100%;
   padding-top: 20px;
@@ -210,8 +298,8 @@ div .card {
   transition: all 0.3s;
 }
 
-/* line 196, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
-.imgProductos:hover {
+/* line 278, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
+.imgProductos1:hover {
   filter: grayscale(0);
   transform: scale(1.13);
   z-index: 2;
@@ -340,56 +428,71 @@ footer {
 
 /* Cambia el responsive de celular */
 @media (max-width: 768px) {
+  /* line 4, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  #pos {
+    margin-top: 55px;
+  }
+  /* line 7, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  .parrafoProceso {
+    margin-top: 0px;
+  }
   /* Header */
   /* Saca el H1 del Nav */
-  /* line 6, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 13, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   #caratula {
     display: none;
   }
   /* Afecta a la seccion del footer de contacto */
-  /* line 11, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 18, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .redesContacto {
     padding-top: 0px;
     margin-bottom: 10px;
   }
-  /* line 16, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 23, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .datos {
     padding-top: 0px;
   }
-  /* line 20, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 27, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   #catalogo {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto auto;
     align-items: start;
     gap: 10px;
   }
-  /* line 29, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 33, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  #catalogo1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    align-items: start;
+    gap: 10px;
+  }
+  /* line 41, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .navbar-nav li a {
     border-left: 1px solid;
   }
-  /* line 32, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 44, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .navbar-nav li a:hover {
     border-bottom: none;
   }
-  /* line 37, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 49, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .datos {
     margin-left: 0px;
   }
-  /* line 42, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 54, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   div .nav {
     margin-bottom: 25px;
   }
-  /* line 49, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
-  .imgProductos:hover {
+  /* line 61, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  .imgProductos1:hover {
     filter: grayscale(0);
     /* Esta aplica bien para celular, hacerlo para tablet y pc */
     transform: scale(1.092);
   }
-  /* line 59, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 71, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .flexCartas {
     display: block;
   }
-  /* line 63, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 75, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   div .card {
     margin-top: 40px;
   }
@@ -397,19 +500,31 @@ footer {
 
 /* Cambia el responsive de Tablet */
 @media (min-width: 768px) and (max-width: 1200px) {
-  /* line 77, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 90, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  .datos {
+    margin-bottom: 20px;
+    padding-top: 10px !important;
+  }
+  /* line 96, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   #catalogo {
     grid-template-columns: repeat(2, 1fr) !important;
     grid-template-rows: auto auto;
     align-items: start;
     gap: 10px;
   }
-  /* line 84, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 102, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  #catalogo1 {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: auto auto;
+    align-items: start;
+    gap: 10px;
+  }
+  /* line 109, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   div .nav {
     margin-bottom: 25px;
   }
-  /* line 91, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
-  .imgProductos:hover {
+  /* line 116, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  .imgProductos1:hover {
     filter: grayscale(0);
     /* Esta aplica bien para celular, hacerlo para tablet y pc */
     transform: scale(1.1);
@@ -419,25 +534,25 @@ footer {
 /* Cambia el responsive de Tablet */
 @media (max-width: 1200px) {
   /* Afecta a la seccion del footer de contacto */
-  /* line 108, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 133, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .redesContacto {
     padding-top: 0px;
     margin-bottom: 10px;
   }
-  /* line 113, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 138, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .datos {
     padding-top: 0px;
     margin-left: 0px;
   }
-  /* line 118, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 143, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .navbar-nav li a {
     border-left: 1px solid;
   }
-  /* line 121, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 146, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .navbar-nav li a:hover {
     border-bottom: none;
   }
-  /* line 126, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
+  /* line 151, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_responsive.scss */
   .listaMuebles {
     margin-right: 230px;
   }
@@ -465,7 +580,7 @@ footer {
 
 /* line 23, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_reset.scss */
 .color2 {
-  background-color: #F3FDE8;
+  background-color: #ebffd6;
 }
 
 /* line 6, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
@@ -480,24 +595,29 @@ footer {
   font-size: 10px;
 }
 
-/* line 16, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 15, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+#exampleFormControlTextarea1 {
+  resize: none;
+}
+
+/* line 18, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .direc {
   position: relative;
   top: 13px;
 }
 
-/* line 21, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 23, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .direccion {
   position: relative;
   top: 6px;
 }
 
-/* line 26, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 28, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .datos {
   padding-top: 97px;
 }
 
-/* line 30, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 32, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .imagen {
   width: 100%;
   height: auto;
@@ -507,19 +627,19 @@ footer {
   padding-left: 0px;
 }
 
-/* line 38, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 40, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 #parteAbajo {
   padding-bottom: 40px;
 }
 
-/* line 42, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 44, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .posicionRedes {
   margin-right: 150px;
   margin-top: 200px;
   height: 100%;
 }
 
-/* line 48, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 50, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .img {
   width: 100%;
   height: auto;
@@ -528,7 +648,7 @@ footer {
   padding-right: 10px;
 }
 
-/* line 55, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
+/* line 57, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_contacto.scss */
 .parrafo {
   padding-left: 10px;
   padding-right: 10px;

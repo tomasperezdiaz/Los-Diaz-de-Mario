@@ -4,10 +4,14 @@
     margin-right: 40px;
 }
 
-
 .textoProductos {
     text-align: center;
     padding-left: 13px;
+   
+}
+
+#pos{
+    margin-top: 15px;
 }
 
 h2 {
@@ -17,6 +21,17 @@ h2 {
     padding: 20px;
     padding: top 15px;
     font-size: 24px !important;
+
+}
+.parrafoProceso {
+    margin-top: 80px;
+}
+.producto {
+
+background-image: url(../src/barra.jpg);
+background-size: cover;
+padding-top: 10px;
+padding-bottom: 170px;
 
 }
 
@@ -36,12 +51,54 @@ div .card {
 p {
     padding: 0 30px;
 }
+.cuadro {
+    position: relative;
+}
+
+.cuadro__titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+     color: var(--blanco);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: rgb(34, 34, 34);
+    background: rgba(184, 166, 118, 0.4);
+    
+    &:hover {
+        opacity: 1;
+        
+        
+    } }
+
+    .cuadro__img {
+        line-height: 0;
+        overflow: hidden;
+        
+    }
 
 h3,
 h5 {
     text-align: center;
     font-family: $fuente-principal;
-    font-size: 15px !important;
+    font-size: 20px !important;
 }
 
 h4 {
@@ -93,6 +150,8 @@ width: 100%;
 .imaMadera {
     width: 100%;
     height: auto;
+    margin: auto;
+    
 }
 
 .h2Contacto {
@@ -114,7 +173,9 @@ margin: auto;
 text-align: center;
 margin-top: 20px;
 height: auto;
-width: 80%;
+width: 98%;
+border-collapse: collapse;
+max-width: 100%;
 
 background-color: $color-terciario;}
 
@@ -127,6 +188,7 @@ table tr td {
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .flexCartas {
@@ -158,6 +220,12 @@ div .card {
     align-items: start;
     gap: 20px;
 }
+#catalogo1 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    align-items: start;
+    gap: 20px;
+}
 
 .consulta {
     text-align: center;
@@ -166,6 +234,11 @@ div .card {
 }
 
 .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+.grid1 {
     display: grid;
     width: 100%;
     height: auto;
@@ -183,7 +256,16 @@ div .card {
 
 /* Efecto que aplica en productos */
 
-.imgProductos {
+.imgProductos{
+    height: auto;
+    width: 100%;
+    
+
+}
+
+/* Aplica para las imanes de galeria donde lleva el link de los productos */
+
+.imgProductos1 {
     height: auto;
     width: 100%;
     padding-top: 20px;

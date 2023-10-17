@@ -1,5 +1,12 @@
 /* Cambia el responsive de celular */
 @media (max-width:768px) {
+    
+    #pos{
+        margin-top: 55px;
+    }
+    .parrafoProceso {
+        margin-top: 0px;
+    }
 
     /* Header */
     /* Saca el H1 del Nav */
@@ -23,7 +30,12 @@
         align-items: start;
         gap: 10px;
     }
-
+    #catalogo1 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto;
+        align-items: start;
+        gap: 10px;
+    }
 
 
     .navbar-nav li a {
@@ -43,7 +55,7 @@
         margin-bottom: 25px;
     }
 
-    .imgProductos {
+    .imgProductos1 {
 
 
         &:hover {
@@ -74,7 +86,20 @@
 /* Cambia el responsive de Tablet */
 @media (min-width: 768px) and (max-width: 1200px) {
 
+   
+    .datos {
+        margin-bottom: 20px;
+       padding-top: 10px !important;
+        
+    }
+
     #catalogo {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: auto auto;
+        align-items: start;
+        gap: 10px;
+    }
+    #catalogo1 {
         grid-template-columns: repeat(2, 1fr) !important;
         grid-template-rows: auto auto;
         align-items: start;
@@ -85,7 +110,7 @@
         margin-bottom: 25px;
     }
 
-    .imgProductos {
+    .imgProductos1 {
 
 
         &:hover {
