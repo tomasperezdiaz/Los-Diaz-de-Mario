@@ -215,6 +215,19 @@ table tr td {
   flex-grow: 1;
 }
 
+.btnb {
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: orange;
+  background-color: #779e57;
+  margin-left: 300px;
+  font-family: roboto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+
+}
 /* line 203, ../Los Diaz de Mario 28-9/Los-Diaz-de-Mario/sass/_main.scss */
 div .card {
   background-color: #d6ab5a;
