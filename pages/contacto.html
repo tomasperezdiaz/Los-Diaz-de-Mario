@@ -49,8 +49,7 @@
                                     <li><a class="sin" href="../pages/maderas.html">Maderas</a></li>
 
 
-                                    <li><a class="sin" href="../pages/proceso.html">Proceso</a></li>
-                                    </li>
+                        
                                     </li>
                                     <li><a class="sin" href="../pages/contacto.html">Contacto</a></li>
 
@@ -86,30 +85,30 @@
             <h2><span Class="h2Contacto"> Pida su presupuesto o realice su consulta </span></h2>
 
             <div class="container">
-                <form action="" class="row">
+                <form action="https://formsubmit.co/marioperezdiaz@yahoo.com.ar" method="POST" class="row">
 
                     <div class="col-md-6 col-sm-12 mb-3 ">
 
                         <label class="m-auto col-md-3" for="Nombre" Class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="Nombre"
+                        <input name="name" type="text" class="form-control" id="Nombre"
                             placeholder="Mario">
                     </div>
                     <div class="col-md-6 col-sm-12 mb-3">
 
                         <label for="apellidoInput" Class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="apellidoInput"
+                        <input name="lastname" type="text" class="form-control" id="apellidoInput"
                             placeholder="Perez Diaz">
                     </div>
                     <div class="col-md-6 col-sm-12 mb-3">
 
                         <label for="numeroInput" Class="form-label">Numero</label>
-                        <input type="phone" class="form-control" id="numeroInput"
+                        <input name="phone" type="phone" class="form-control" id="numeroInput"
                             placeholder="47747646">
                     </div>
                     <div class="col-md-6 col-sm-12 mb-3">
 
                         <label for="emailInput" Class="form-label">Email</label>
-                        <input type="email" class="form-control" id="emailInput"
+                        <input name="email" type="email" class="form-control" id="emailInput"
                             placeholder="losdiazdemario@yahoo.com.ar">
                            
 
@@ -119,8 +118,10 @@
                     <div class="mb-3 mt-3 col-sm-12">
                        
                        
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="consulta o presupuesto"></textarea>
-                        <button class="btnb mt-3">Enviar</button> 
+                        <textarea name="comentarios" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="consulta o presupuesto"></textarea>
+ 
+                        <input name="enviar" class="btnb mt-3" type="submit" value="Enviar">
+                     
                     </div>
                     
                 </form>
@@ -137,7 +138,8 @@
                 <!-- Datos -->
                 <div class="datos col-xl-4 col-md-12 col-sm-12">
                     <h2 id="contacto">Contacto</h2>
-                    <p><i class="fas fa-phone"></i> 47747646</p>
+                    <p><i class="fas fa-phone"></i> 15-6793-4053</p>
+                    <p><i class="fas fa-phone"></i> 4774-7646</p>
                     <p><i class="fas fa-envelope"></i> marioperezdiaz@yahoo.com.ar</p>
                 </div>
             </section>
